@@ -11,18 +11,25 @@ A straightforward Python tool to download YouTube videos directly by pasting the
 ## 🛠️ Installation
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/Rajneeshkarya/YT2MP4.git
    ```
+   
 2. Navigate to Project Directory
+   
    ```bash
    cd YT2MP4
+   ```
    
-4. Install Dependencies
+3. Install Dependencies
+   
    ```bash
    pip3 install -r requirements.txt
    ```
-5. Make the python file executable
+   
+4. Make the python file executable
+   
    ```bash
    chmod +x yt2mp4.py
    ```
@@ -30,6 +37,7 @@ A straightforward Python tool to download YouTube videos directly by pasting the
 ## 💻 Usage
 
 1. Run the tool with the following command:
+
    ```bash
    ./yt2mp4.py -u <YouTube URL> -q <quality> -d <destination>
    ```
@@ -37,14 +45,19 @@ A straightforward Python tool to download YouTube videos directly by pasting the
 ## Example Commands
 
 1. Download a video with the best quality:
+
    ```bash
    ./yt2mp4.py -u https://www.youtube.com/watch?v=S6qWYpBkNvE -q best
    ```
-2. Download a video to a specific folder:
+   
+3. Download a video to a specific folder:
+
    ```bash
    ./yt2mp4.py -u https://www.youtube.com/watch?v=S6qWYpBkNvE -d /path/to/destination
    ```
-3. Download a video with a custom filename:
+   
+5. Download a video with a custom filename:
+   
    ```bash
    ./yt2mp4.py -u https://www.youtube.com/watch?v=S6qWYpBkNvE -f myvideo.mp4
    ```
