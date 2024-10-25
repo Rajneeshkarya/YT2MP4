@@ -12,7 +12,7 @@ A straightforward Python tool to download YouTube videos directly by pasting the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/youtube-video-downloader.git
+   https://github.com/Rajneeshkarya/YT2MP4.git
    ```
 2. Navigate to Project Directory
    ```bash
